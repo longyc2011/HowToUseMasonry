@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		349931871DF3D4E1001FF639 /* NotEqualMaginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349931861DF3D4E1001FF639 /* NotEqualMaginController.m */; };
 		700550721CFB1AAD00640B72 /* UpdateConstraintsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700550711CFB1AAD00640B72 /* UpdateConstraintsController.m */; };
 		707767441CFDC38C0003A102 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707767431CFDC38C0003A102 /* ScrollViewController.m */; };
 		707767471CFDD2E00003A102 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707767461CFDD2E00003A102 /* TableViewController.m */; };
@@ -79,6 +80,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		349931851DF3D4E1001FF639 /* NotEqualMaginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotEqualMaginController.h; sourceTree = "<group>"; };
+		349931861DF3D4E1001FF639 /* NotEqualMaginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotEqualMaginController.m; sourceTree = "<group>"; };
 		700550701CFB1AAD00640B72 /* UpdateConstraintsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateConstraintsController.h; sourceTree = "<group>"; };
 		700550711CFB1AAD00640B72 /* UpdateConstraintsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateConstraintsController.m; sourceTree = "<group>"; };
 		707767421CFDC38C0003A102 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
@@ -233,6 +236,8 @@
 				70F88ABA1CF9E97900FD6B8C /* BasicController.m */,
 				70BCEAEB1CF9EA8C000ED1E0 /* EqualMarginController.h */,
 				70BCEAEC1CF9EA8C000ED1E0 /* EqualMarginController.m */,
+				349931851DF3D4E1001FF639 /* NotEqualMaginController.h */,
+				349931861DF3D4E1001FF639 /* NotEqualMaginController.m */,
 				700550701CFB1AAD00640B72 /* UpdateConstraintsController.h */,
 				700550711CFB1AAD00640B72 /* UpdateConstraintsController.m */,
 				707767421CFDC38C0003A102 /* ScrollViewController.h */,
@@ -621,6 +626,7 @@
 				707767471CFDD2E00003A102 /* TableViewController.m in Sources */,
 				70EF9C101CFA910B00479899 /* MASLayoutConstraint.m in Sources */,
 				70EC40DF1CF9E4B20008C015 /* main.m in Sources */,
+				349931871DF3D4E1001FF639 /* NotEqualMaginController.m in Sources */,
 				707767A21CFDDC1F0003A102 /* UIImageView+WebCache.m in Sources */,
 				707767A01CFDDC1F0003A102 /* UIImage+WebP.m in Sources */,
 			);

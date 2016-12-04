@@ -9,9 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface UIView (EqualMargin)
-
-- (void) distributeSpacingHorizontallyWith:(NSArray*)views;
-- (void) distributeSpacingVerticallyWith:(NSArray*)views;
-
+- (void)distributeViewsAlongAxis:(MASAxisType)axisType
+           withSpaceWeightArrays:(NSArray*)spaceWeightArray
+                andSubViewsArray:(NSArray*)subViews;
+- (void)distributeSpacingHorizontallyWith:(NSArray*)views;
+- (void)distributeSpacingVerticallyWith:(NSArray*)views;
 
 @end
