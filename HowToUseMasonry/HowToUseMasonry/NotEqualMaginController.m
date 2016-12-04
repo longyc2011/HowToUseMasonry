@@ -8,7 +8,7 @@
 
 #import "Masonry.h"
 #import "NotEqualMaginController.h"
-#import "UIView+EqualMargin.h"
+#import "UIView+VariableMargin.h"
 #define WS(weakSelf) __weak __typeof(&*self) weakSelf = self;
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height

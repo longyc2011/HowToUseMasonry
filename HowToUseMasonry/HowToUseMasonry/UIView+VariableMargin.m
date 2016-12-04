@@ -1,15 +1,14 @@
 //
-//  UIView+EqualMargin.m
+//  UIView+VariableMargin.m
 //  HowToUseMasonry
 //
-//  Created by sharejoy on 16-05-29.
+//  Created by Stevens Sun on 2016/12/4.
 //  Copyright © 2016年 shangbin. All rights reserved.
 //
 
-#import "Masonry.h"
-#import "UIView+EqualMargin.h"
+#import "UIView+VariableMargin.h"
 
-@implementation UIView (EqualMargin)
+@implementation UIView (VariableMargin)
 - (void)distributeViewsAlongAxis:(MASAxisType)axisType
            withSpaceWeightArrays:(NSArray*)spaceWeightArray
                 andSubViewsArray:(NSArray*)subViews {
@@ -169,5 +168,4 @@
            withSpaceWeightArrays:array
                 andSubViewsArray:views];
 }
-
 @end

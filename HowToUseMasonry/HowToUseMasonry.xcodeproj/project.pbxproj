@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		349931871DF3D4E1001FF639 /* NotEqualMaginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349931861DF3D4E1001FF639 /* NotEqualMaginController.m */; };
+		3499318A1DF455EC001FF639 /* UIView+VariableMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = 349931891DF455EC001FF639 /* UIView+VariableMargin.m */; };
 		700550721CFB1AAD00640B72 /* UpdateConstraintsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700550711CFB1AAD00640B72 /* UpdateConstraintsController.m */; };
 		707767441CFDC38C0003A102 /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707767431CFDC38C0003A102 /* ScrollViewController.m */; };
 		707767471CFDD2E00003A102 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707767461CFDD2E00003A102 /* TableViewController.m */; };
@@ -58,7 +59,6 @@
 		70EF9C141CFA910B00479899 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EF9C071CFA910B00479899 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		70EF9C151CFA910B00479899 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EF9C091CFA910B00479899 /* View+MASAdditions.m */; };
 		70EF9C161CFA910B00479899 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EF9C0C1CFA910B00479899 /* ViewController+MASAdditions.m */; };
-		70EF9C191CFAA0C700479899 /* UIView+EqualMargin.m in Sources */ = {isa = PBXBuildFile; fileRef = 70EF9C181CFAA0C700479899 /* UIView+EqualMargin.m */; };
 		70F88ABB1CF9E97900FD6B8C /* BasicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F88ABA1CF9E97900FD6B8C /* BasicController.m */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +82,8 @@
 /* Begin PBXFileReference section */
 		349931851DF3D4E1001FF639 /* NotEqualMaginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotEqualMaginController.h; sourceTree = "<group>"; };
 		349931861DF3D4E1001FF639 /* NotEqualMaginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotEqualMaginController.m; sourceTree = "<group>"; };
+		349931881DF455EC001FF639 /* UIView+VariableMargin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VariableMargin.h"; sourceTree = "<group>"; };
+		349931891DF455EC001FF639 /* UIView+VariableMargin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VariableMargin.m"; sourceTree = "<group>"; };
 		700550701CFB1AAD00640B72 /* UpdateConstraintsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateConstraintsController.h; sourceTree = "<group>"; };
 		700550711CFB1AAD00640B72 /* UpdateConstraintsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateConstraintsController.m; sourceTree = "<group>"; };
 		707767421CFDC38C0003A102 /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
@@ -189,8 +191,6 @@
 		70EF9C0A1CFA910B00479899 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		70EF9C0B1CFA910B00479899 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		70EF9C0C1CFA910B00479899 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		70EF9C171CFAA0C700479899 /* UIView+EqualMargin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+EqualMargin.h"; sourceTree = "<group>"; };
-		70EF9C181CFAA0C700479899 /* UIView+EqualMargin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+EqualMargin.m"; sourceTree = "<group>"; };
 		70F88AB91CF9E97900FD6B8C /* BasicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicController.h; sourceTree = "<group>"; };
 		70F88ABA1CF9E97900FD6B8C /* BasicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -223,8 +223,8 @@
 		700550731CFB461E00640B72 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				70EF9C171CFAA0C700479899 /* UIView+EqualMargin.h */,
-				70EF9C181CFAA0C700479899 /* UIView+EqualMargin.m */,
+				349931881DF455EC001FF639 /* UIView+VariableMargin.h */,
+				349931891DF455EC001FF639 /* UIView+VariableMargin.m */,
 			);
 			name = Category;
 			sourceTree = "<group>";
@@ -607,7 +607,6 @@
 				7077679B1CFDDC1F0003A102 /* SDWebImageManager.m in Sources */,
 				707767711CFDD9DA0003A102 /* TestCell.m in Sources */,
 				70EF9C111CFA910B00479899 /* MASViewAttribute.m in Sources */,
-				70EF9C191CFAA0C700479899 /* UIView+EqualMargin.m in Sources */,
 				7077676B1CFDD8560003A102 /* JSONValueTransformer.m in Sources */,
 				7077679A1CFDDC1F0003A102 /* SDWebImageDownloaderOperation.m in Sources */,
 				70EF9C0F1CFA910B00479899 /* MASConstraintMaker.m in Sources */,
@@ -629,6 +628,7 @@
 				349931871DF3D4E1001FF639 /* NotEqualMaginController.m in Sources */,
 				707767A21CFDDC1F0003A102 /* UIImageView+WebCache.m in Sources */,
 				707767A01CFDDC1F0003A102 /* UIImage+WebP.m in Sources */,
+				3499318A1DF455EC001FF639 /* UIView+VariableMargin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
